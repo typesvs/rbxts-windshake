@@ -24,9 +24,7 @@ interface WindShake {
     AddObjectShake(Object: BasePart, Settings: Settings): void
     RemoveObjectShake(Object: BasePart): void
 
-    /**
-     * @deprecated
-     */
+    SetDefaultSettings(Settings: Settings): void
     UpdateObjectSettings(Object: BasePart, Settings: Settings): void
     UpdateAllObjectSettings(Settings: Settings): void
 }
