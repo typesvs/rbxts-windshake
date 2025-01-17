@@ -11,3 +11,6 @@
 
 # VS Code files
 .vscode/*
+
+node_modules
+package-lock.json
