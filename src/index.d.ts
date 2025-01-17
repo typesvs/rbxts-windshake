@@ -21,7 +21,7 @@ interface WindShake {
     Pause(): void
     Resume(): void
     
-    AddObjectShake(Object: BasePart, Settings: Settings): void
+    AddObjectShake(Object: BasePart, Settings?: Settings): void
     RemoveObjectShake(Object: BasePart): void
 
     SetDefaultSettings(Settings: Settings): void
