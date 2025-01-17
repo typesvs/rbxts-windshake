@@ -1,9 +1,5 @@
-
-type WindShakeSettings = {
-    WindDirection?: Vector3
-    WindSpeed?: number,
-    WindPower?: number
-}
+declare const WindShake: WindShake
+export = WindShake
 
 interface WindShake {
     RenderDistance: number
